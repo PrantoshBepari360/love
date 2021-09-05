@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Love Love...</title>
+    <!-- Bootstrap Css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <section class="container">
+        <h1 class="text-center text-info"><span class="text-danger">I Love You.</span> Do You Love Me?</h1>
+        <!-- show button -->
+        <div class="d-flex justify-content-center align-items-center py-4">
+            <button class="btn btn-danger my-2 fs-5" onclick="yes()">Yes..</button> <span class="fs-4 px-2">Or</span>
+            <button class="btn btn-info text-light fs-5" onclick="no()">No..</button>
+        </div>
+
+        <!-- Show I love you -->
+        <div id="love-you">
+            <h1 class="d-flex justify-content-center align-items-center">I<img class="img-fluid w-25"
+                    src="./img/love.png" alt="Love image">You<span class="ps-3">2</span><img class="img-fluid w-25"
+                    src="./img/rose.png" alt=""></h1>
+        </div>
+
+        <!-- Show best friend -->
+        <div id="best-friend" class="text-center">
+            <h1 class="d-flex justify-content-center align-items-center">Will you be my best friend ?<img
+                    class="img-fluid w-25" src="./img/cocklet.png" alt="chocklet"></h1>
+        </div>
+    </section>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
